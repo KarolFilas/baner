@@ -18,9 +18,6 @@ let active = 0
 let inter
 // implementacja
 
-
-
-
 const changeDot = () => {
     const activeDot = dots.findIndex(dot => dot.classList.contains('active'))
     dots[activeDot].classList.remove('active')
@@ -60,8 +57,6 @@ const keyChangeSlide = (e) => {
     }
     inter = setInterval(changeSlide, time)
 }
-
-
 
 inter = setInterval(changeSlide, time)
 
